@@ -1,0 +1,1 @@
+def givenFun: Int => Int = _ + 42
