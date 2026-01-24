@@ -1,0 +1,30 @@
+Wie geht man am schnellsten / geschicktesten vor??
+
+Petrinetzaufgaben:
+------------------
+20160726 - Aufgabe 3b
+
+SS2019 A5 so möglich
+
+
+Scala
+
+Scala - weitere Übungen
+- Rucksackproblem
+--> wie programmiert man Permutationen
+
+
+
+Java:
+- SS2019 - locks Aufgaben - können sie so in der Form wieder drankommen?
+
+Wissen:
+- SS2019 Aufgabe c)
+
+
+
+
+
+
+
+
