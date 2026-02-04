@@ -23,6 +23,13 @@ Wissen:
 
 
 
+bei Tupeln / case classes klammern und Schlüsselwort case schreiben verwenden
+filter(
+{case (a, b) => ….}
+)
+
+
+
 
 
 
