@@ -22,15 +22,15 @@ def findC: (BigInt, BigInt) => BigInt = (a, b) => {
 
 def sqrtHelper: LazyList[BigInt] => (BigInt, BigInt, BigInt, BigInt) => LazyList[BigInt] = {
     zs => (a0, b0, c0, d0) => {
-      zs.head match {
-        case z if z == BigInt(-1) => BigInt(-1) #:: sqrtHelper(zs.tail)(a0, b0, c0, d0)
-        case z =>
-          val a1 = a0 * 10 + c0
-          val b1 = (b0 - d0) * 100 + z
-          val c1 = findC(a1, b1)
-          val d1 = (a1 * 20 + c1) * c1 
-          c1 #:: sqrtHelper(zs.tail)(a1, b1, c1, d1)
-      }
+        zs match {
+          case z #:: zs1 if z == BigInt(-1) => BigInt(-1) #:: sqrtHelper(zs1)(a0, b0, c0, d0)
+          case z #:: zs1 =>
+            val a1 = a0 * 10 + c0
+            val b1 = (b0 - d0) * 100 + z
+            val c1 = findC(a1, b1)
+            val d1 = (a1 * 20 + c1) * c1
+            c1 #:: sqrtHelper(zs1)(a1, b1, c1, d1)
+        }
     }
 }
 
