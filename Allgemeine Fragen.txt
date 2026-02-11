@@ -5,6 +5,8 @@ Petrinetzaufgaben:
 20160726 - Aufgabe 3b
 
 SS2019 A5 so möglich
+WS 2019 A6 - gegeben: Matrix und I; gesucht ist der Belgungsvektor: Ansatz I + M@S  
+
 
 
 Scala
@@ -24,9 +26,12 @@ Wissen:
 
 
 bei Tupeln / case classes klammern und Schlüsselwort case schreiben verwenden
+
 filter(
-{case (a, b) => ….}
+{case (Node(min1, max1), Node(min2, max2)) => …}
 )
+
+
 
 
 
