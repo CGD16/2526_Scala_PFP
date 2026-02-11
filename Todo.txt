@@ -1,0 +1,45 @@
+Todo:
+
+
+Dienstag:
+-----------------
+- Zusammen: Petrinetze
+
+Mittwoch:
+-----------------
+- Alleine I: Wissensfragen + Petrinetze | Schreibtischlauf
+- Alleine II: Altklausuren 
+- Zusammen: Schreibtischlauf
+
+Donnerstag:
+-----------------
+- Alleine I: Wissensfragen | Java
+- Alleine II: Altklausuren 
+- Zusammen: Java
+
+Freitag:
+-----------------
+- Alleine I: Wissensfragen | Java
+- Alleine II: Altklausuren
+- Zusammen:  Scala
+
+Samstag:
+-----------------
+- Alleine I: Wissensfragen | Scala
+- Alleine II: Altklausuren
+- Zusammen: Scala
+
+
+
+Sonntag:
+-----------------
+- Alleine I: Wissensfragen | Scala
+- Alleine II: Altklausuren
+- Zusammen: Scala
+
+
+Montag:
+-----------------
+- Alleine I: Wissensfragen
+- Alleine II: Altklausuren
+- Zusammen:
